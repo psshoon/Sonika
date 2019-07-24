@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class TileManager : MonoBehaviour
 {
-    List<GameObject> tilesList = new List<GameObject>();
+    List<GameObject[]> tilesList = new List<GameObject[]>();
 
 
+    private void Awake()
+    {
+        tilesList[0][0] = new GameObject();
+    }
 }
