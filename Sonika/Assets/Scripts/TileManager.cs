@@ -4,15 +4,7 @@ using UnityEngine;
 
 public class TileManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    List<GameObject> tilesList = new List<GameObject>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
